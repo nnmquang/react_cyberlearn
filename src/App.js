@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import StateDemo from './State/StateDemo';
+// import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+// import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+// import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
+// import BaiTapThuKinh from './BaiTapThuKinh/BaiTapThuKinh';
+import BaiTapChonXeNangCao from './BaiTapChonXeNangCao/BaiTapChonXeNangCao';
+// import Styling from './Styling/Styling';
+// import StateDemo from './State/StateDemo';
 // import RenderingConditions from './RenderingConditions/RenderingConditions';
 // import HandelEvent from './HandleEvent/HandelEvent';
 // import Header from './component/Demo/Header';
@@ -19,7 +25,14 @@ function App() {
       <DataBindingRFC/> */}
       {/* <HandelEvent/> */}
       {/* <RenderingConditions/> */}
-      <StateDemo/>
+      {/* <StateDemo/> */}
+      {/* <Styling/>
+      <p className="txt">app component</p> */}
+      {/* <BaiTapChonXe/> */}
+      {/* <RenderWithLoop/> */}
+      {/* <BaiTapRenderFilms/> */}
+      {/* <BaiTapThuKinh/> */}
+      <BaiTapChonXeNangCao/>
     </div>
   );
 }
